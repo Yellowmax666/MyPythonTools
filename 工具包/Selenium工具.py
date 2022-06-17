@@ -20,14 +20,14 @@ def 登入azure():
 
     # 输入账户
     takeARest(sleepTime=1)
-    driver.find_element_by_css_selector('.form-control.ltr_override.input.ext-input.text-box.ext-text-box').send_keys("Max_huang@loreal.partner.onmschina.cn")
+    driver.find_element_by_css_selector('.form-control.ltr_override.input.ext-input.text-box.ext-text-box').send_keys("xxxx@xxx.com")
 
     # 点击下一步.win-button.button_primary.button.ext-button.primary.ext-primary
     driver.find_element_by_css_selector('.win-button.button_primary.button.ext-button.primary.ext-primary').click()
 
     # 输入密码
     takeARest(sleepTime=1)
-    driver.find_element_by_css_selector('.form-control.input.ext-input.text-box.ext-text-box').send_keys("QAZ-cxz5600958")
+    driver.find_element_by_css_selector('.form-control.input.ext-input.text-box.ext-text-box').send_keys("hahahahha")
 
     # 点击登录.win-button.button_primary.button.ext-button.primary.ext-primary[type="submit"]
     driver.find_element_by_css_selector('.win-button.button_primary.button.ext-button.primary.ext-primary[type="submit"]').click()
